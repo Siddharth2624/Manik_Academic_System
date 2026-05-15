@@ -146,7 +146,7 @@ desktop.ini
 *.sqlite3
 *.db
 db.sqlite3
-uploads/
+# uploads/
 staticfiles/
 media/
 
