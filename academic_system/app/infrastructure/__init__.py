@@ -19,6 +19,7 @@ from .dependencies import (
     get_current_student,
     get_current_faculty_or_admin
 )
+from .redis import redis_client, get_redis
 
 __all__ = [
     # Config
@@ -42,4 +43,7 @@ __all__ = [
     "get_current_faculty",
     "get_current_student",
     "get_current_faculty_or_admin",
+    # Redis
+    "redis_client",
+    "get_redis",
 ]
