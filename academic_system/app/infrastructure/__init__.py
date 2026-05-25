@@ -20,6 +20,7 @@ from .dependencies import (
     get_current_faculty_or_admin
 )
 from .redis import redis_client, get_redis
+from .email import email_service
 
 __all__ = [
     # Config
@@ -46,4 +47,6 @@ __all__ = [
     # Redis
     "redis_client",
     "get_redis",
+    # Email
+    "email_service",
 ]
